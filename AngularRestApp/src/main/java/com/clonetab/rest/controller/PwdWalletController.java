@@ -139,6 +139,7 @@ public class PwdWalletController
 	@RequestMapping(value = "/loadAllPwdWallets", method = RequestMethod.GET)
 	public List<PasswordWalletVo> loadAllPasswordWallets() {
 		System.out.println("Inside Load option...");
+		System.out.println("Git push test");
 		pwdWalletService.loadAllPasswordWallets();
 		return pwdWalletService.loadAllPasswordWallets();
 	}
